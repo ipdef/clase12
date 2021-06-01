@@ -1,0 +1,39 @@
+
+main{
+    padding: 40px;
+    width: 90%;
+
+    section article{
+    padding-bottom: 40px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    
+        img{
+            margin-right: 20px;
+            width: 250px;
+            height: 200px;
+        }
+        button{
+            width: 90px;
+            height: 50px;
+            font-size: 20px;
+            border-radius: 7%;
+        }
+    }
+}
+main section article img:hover{
+    transform: scale(0.7,0.7);
+}
+
+main section article a button:hover{
+    background: linear-gradient(109.6deg, #33ec4b 11.2%, #1f1e1e 91.1%);
+}
+.grid-section{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.grid-article{
+    display: flex;
+    flex-direction: column;
+}

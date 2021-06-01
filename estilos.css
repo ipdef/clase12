@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  display: flex;
+  flex-flow: row wrap; }
+
+header {
+  width: 100%;
+  padding: 20px 40px;
+  border-bottom: 2px solid #000;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  background: linear-gradient(109.6deg, #a53232 11.2%, #000000 91.1%); }
+
+header img {
+  width: 150px;
+  height: 100px; }
+
+aside {
+  padding: 10px;
+  width: 10%;
+  border-right: 2px solid #000; }
+  aside ul {
+    list-style: none; }
+    aside ul li {
+      border-bottom: 2px #000 solid; }
+
+aside ul li:hover {
+  background-color: #a53232;
+  transform: scale(1.1, 1.1); }
+
+main {
+  padding: 40px;
+  width: 90%; }
+  main section article {
+    padding-bottom: 40px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center; }
+    main section article img {
+      margin-right: 20px;
+      width: 250px;
+      height: 200px; }
+    main section article button {
+      width: 90px;
+      height: 50px;
+      font-size: 20px;
+      border-radius: 7%; }
+
+main section article img:hover {
+  transform: scale(0.7, 0.7); }
+
+main section article a button:hover {
+  background: linear-gradient(109.6deg, #33ec4b 11.2%, #1f1e1e 91.1%); }
+
+.grid-section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); }
+
+.grid-article {
+  display: flex;
+  flex-direction: column; }
+
+/*# sourceMappingURL=estilos.css.map */
